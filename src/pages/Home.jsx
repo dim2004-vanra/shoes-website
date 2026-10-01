@@ -36,7 +36,7 @@ import { mycontext } from '../context/Productdata';
 
 const Home = () => {
 
-  const products = useContext(mycontext);
+  const [products] = useContext(mycontext);
   console.log(products);
   
 
