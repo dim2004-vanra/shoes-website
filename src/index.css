@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+img,
+iframe {
+  max-width: 100%;
+}
